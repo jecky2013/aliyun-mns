@@ -1,19 +1,21 @@
 {
     "name": "jecky/aliyun-mns",
-    "require": {
-        "guzzlehttp/guzzle": "^6.2"
-    },
-    "license": "MIT",
+    "description": "阿里云 MNS 官方 PHP SDK 的 Composer 封装 (Aliyun MNS PHP SDK for Composer)",
+    "keywords": ["aliyun", "mns"],
     "authors": [
         {
             "name": "Jacky",
             "email": "jacky@5amax.com"
         }
     ],
+    "license": "MIT",
     "minimum-stability": "stable",
+    "require": {
+        "guzzlehttp/guzzle": "^6.2"
+    },
     "autoload": {
-    "psr-4": {
-      "AliyunMNS\\": "src"
-    }
+        "psr-4": {
+          "AliyunMNS\\": "src"
+        }
   }
 }
