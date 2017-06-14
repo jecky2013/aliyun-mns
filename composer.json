@@ -1,0 +1,19 @@
+{
+    "name": "jacky/aliyun-mns",
+    "require": {
+        "guzzlehttp/guzzle": "^6.2"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jacky",
+            "email": "jacky@5amax.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+    "psr-4": {
+      "AliyunMNS\\": "src"
+    }
+  }
+}
