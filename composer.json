@@ -1,5 +1,5 @@
 {
-    "name": "jacky/aliyun-mns",
+    "name": "jecky/aliyun-mns",
     "require": {
         "guzzlehttp/guzzle": "^6.2"
     },
